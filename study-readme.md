@@ -16,5 +16,8 @@ env.java.opts: -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=500
 3、配置IDEA中的remote：host配置为localhost，配置port（参考1中的配置的address端口）。
 4、在Flink源码中设置断点，连接远程host，然后就可以开始debug跟踪了。
 
+<<<<<<< HEAD
 
 todo2
+=======
+>>>>>>> parent of 54ac9db36e... 2
